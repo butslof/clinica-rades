@@ -1,0 +1,92 @@
+   body, h1, h2, h3, h4, h5, h6, a, p,  ul, li, ol, td, span, .button{font-family: 'Open Sans'  !important;color:#666666;}
+   body, a, p,  ul, li, ol, td, span, input, textarea, select, tr,td,strong, .button{font-size:16px;}
+   .row{max-width:1200px;}
+   .row-nav{max-width:1200px !important;}
+   header{position: relative;z-index: 2;}
+   ul.vertical.medium-horizontal.menu.dropdown li, .vertical.medium-horizontal.menu.accordion-menu li{font-weight:600;}
+   a:hover{color:#6c195c;}
+   a:active{color:#6c195c;}
+   .dropdown.menu > li.is-active > a{color:#6c195c !important;}
+   .top, .top-bar, ul.vertical.medium-horizontal.menu.dropdown{background-color:white;}
+   .dropdown.menu.medium-horizontal > li.is-dropdown-submenu-parent > a::after, .accordion-menu .is-accordion-submenu-parent:not(.has-submenu-toggle) > a::after{border-color:#762867 transparent transparent;}
+   .top-bar{padding-top: 19px;padding-bottom: 19px;}
+   .icon-menu{font-size: 30px;color: #762867;}
+   .title-bar{background-color:white;}
+   .accordion-menu li.menu-top{border-bottom: 1px solid #762867;}
+   .menu.vertical.submenu.is-dropdown-submenu.first-sub li a, .accordion-menu .is-accordion-submenu a{font-weight:400;font-size: 14px;}
+   .col-text-icon-menu{padding-left: 0;margin-right: 20px;margin-top: -17px;}
+   .col-icon-sub-menu{padding-right: 0;}
+   .icon-circle-left, .icon-circle-right{color: #762867;font-size: 23px;}
+   .bg-local{background:url(../imgs/banner/bg-local.jpg) no-repeat center ;background-size: cover;padding-top:61px;padding-bottom:61px;}
+   .col-local{-webkit-box-shadow: 0px 1px 28px 0px rgba(0,0,0,0.42);-moz-box-shadow: 0px 1px 28px 0px rgba(0,0,0,0.42);box-shadow: 0px 1px 28px 0px rgba(0,0,0,0.42);}
+   .bg-local div article div h5{font-size:28px;font-weight:600;color:#6c195c;}
+   .margin-infos{margin-bottom:30px;}
+   .form-news span{font-weight:600;font-size:16px;color:white;}
+   .form-news p {color:white;}
+   .btn-enviar-news{color:white;background-color:#762867 ;padding: 8px;width: 100px;}
+   .btn-enviar-news:hover{background-color: #4c1942;}
+   .col-input-news {padding-left: 2px;}
+   .col-redes span{color:white;font-weight:600;font-size:16px;}
+   footer{background-color:#535353;padding-top:48px;padding-bottom:36px;}
+   .col-redes ul.menu li a{margin-top: 17px;}
+   .bg-direitos{background-color:#202020;}
+   .link-direitos p{color:white !important;padding-top:12px;}
+   .plyn{color:#f1b9a8 !important;}
+   .line-criador{padding-top:48px;padding-bottom:48px;border-bottom:solid #b5b7b6 1px;}
+   .txt-criador{margin-top: 35px;}
+   .descri-habilidades{font-weight:600;}
+   .crm-criador{font-size:14px;font-weight:400;color:#6c195c}
+   .input-interna{height:43px;}
+   .textarea-interna{height:74px;}
+   ::-webkit-input-placeholder {
+   color: black;
+   }
+   
+   :-moz-placeholder { /* Firefox 18- */
+   color: black;  
+   }
+   
+   ::-moz-placeholder {  /* Firefox 19+ */
+   color: black;  
+   }
+   
+   :-ms-input-placeholder {  
+   color: black;  
+   }
+   .btn-submit-interna{width:116px;padding: 7px;background-color:#6c195c;color:white;}
+   .btn-submit-interna:hover{background-color: #4c1942;}
+
+   .btn-whats-internas{position: fixed;right: 37px;bottom: 29px;}
+      /* Small only */
+   @media screen and (max-width: 39.9375em) {
+      #logo_topo_home, .box-logo-desk{display:none;}
+      .vertical.medium-horizontal.menu.accordion-menu{width:100%;border-radius: 17px;}
+      .form-news{margin-top: 39px;}
+      .btn-latters{margin-top: 11px;}
+      .btn-whats-internas{right: 0px;}
+
+
+
+   }
+   /* Medium and up */
+   @media screen and (min-width: 40em) {}
+   /* Medium only */
+   @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+      #logo_topo_home, .box-logo-desk{display:none;}
+      .vertical.medium-horizontal.menu.accordion-menu{width:100%;}
+      .top-bar{padding-left: 19px;}
+      .col-text-icon-menu{margin-right: 6px !important;}
+      .form-news{margin-top: 39px;}
+
+   } 
+   /* Large and up */
+   @media screen and (min-width: 64em) {
+    
+      .menu.vertical.submenu.is-dropdown-submenu.first-sub{width:250px;border:none;background-color:#ededed;-webkit-border-bottom-right-radius: 10px;-webkit-border-bottom-left-radius: 10px;-moz-border-radius-bottomright: 10px;-moz-border-radius-bottomleft: 10px;border-bottom-right-radius: 10px;border-bottom-left-radius: 10px;}
+   }
+   /* Large only */
+   @media screen and (min-width: 64em) and (max-width: 74.9375em) {
+
+   
+   }
+
